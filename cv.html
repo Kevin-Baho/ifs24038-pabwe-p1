@@ -1,127 +1,151 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="id">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CV - Risky Kevin</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<body>
-  <header>
-    <!-- Navigasi Utama -->
-    <nav aria-label="Navigasi utama">
-      <a href="index.html">1. IMDb Top 3 Movies</a> | 
-      <a href="blog.html">2. Dev Blogs</a> | 
-      <a href="form.html">3. Form Pendaftaran Akun</a> | 
-      <a href="cv.html">4. Curriculum Vitae (CV)</a>
+    <meta
+      name="description"
+      content="Curriculum Vitae dan portfolio mahasiswa Informatika."
+    />
+
+    <title>Curriculum Vitae</title>
+
+    <style>
+      .cv-table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      .cv-table td {
+        padding: 10px;
+        vertical-align: top;
+      }
+
+      .profile-photo {
+        display: block;
+        width: 200px;
+        height: 200px;
+        max-width: 100%;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav>
+      <p>
+        <a href="index.html">IMDb Movies</a> |
+        <a href="blog.html">Dev Blogs</a> |
+        <a href="form.html">Form Pendaftaran</a> |
+        <a href="cv.html">Curriculum Vitae</a>
+      </p>
     </nav>
-  </header>
 
-  <hr>
+    <hr />
 
-  <main>
-    <table
-      border="1"
-      width="100%"
-      cellpadding="8"
-      cellspacing="0"
-    >
-      <tr valign="top">
-        <!-- Kolom Kiri: Profil, Pendidikan & Pengalaman -->
-        <td width="50%">
-          <img
-            src="assets/img/profil.jpg"
-            alt="Foto Risky Kevin"
-            width="200"
-          >
+    <main>
+      <table class="cv-table">
+        <tbody>
+          <tr>
+            <td>
+              <img
+                class="profile-photo"
+                src="risk.jpg"
+                width="200"
+                height="200"
+                alt="Foto Risky Kevin Naibaho"
+                fetchpriority="high"
+                decoding="async"
+                referrerpolicy="no-referrer"
+              />
+            </td>
 
-          <h1>Risky Kevin</h1>
+            <td>
+              <h1>Risky Kevin Naibaho</h1>
 
-          <h3>Sarjana Informatika</h3>
+              <h2>Sarjana Informatika</h2>
 
-          <h6>Email: baho11347@gmail.com</h6>
-          <h6>WA: +62 823 6143 9414</h6>
-          <p>
-            <em>"Berjiwa seperti seorang pelayan bukan membuat kamu seperti rendah, melainkan menunjukkan kamu rendah hati."</em>
-          </p>
+              <p>
+                Email: baho11347@gmail.com <br />
+                WA: +62 823 6143 9414
+              </p>
 
-          <h2>Pendidikan</h2>
-          <hr>
+              <p>
+                Saya adalah seorang mahasiswa Informatika yang memiliki minat
+                dalam pengembangan perangkat lunak, terutama dalam pengembangan
+                web dan aplikasi mobile. Saya memiliki pengalaman dalam
+                menggunakan berbagai bahasa pemrograman dan framework untuk
+                membangun solusi yang efisien dan inovatif.
+              </p>
+            </td>
+          </tr>
 
-          <ul>
-            <li>
-              <strong>Sarjana Informatika</strong>
-              <br>
-              Institut Teknologi Del (2024 - Sekarang)
-            </li>
-            <li>SMA Negeri 1 Pangaribuan (2021 - 2024)</li>
-            <li>SMP Rumah Katolik Swasta Budi Mulia Pangururan (2018 - 2021)</li>
-            <li>SD Negeri 173197 Pangaribuan (2012 - 2018)</li>
-          </ul>
+          <tr>
+            <td>
+              <hr />
 
-          <h2>Pengalaman</h2>
-          <hr>
+              <h2>Pendidikan</h2>
 
-          <p>
-            <strong>Anggota Komisi D</strong> | Organisasi
-            <br>
-            Majelis Permusyawaratan Mahasiswa (2025/2026)
-          </p>
+              <h3>Sarjana Informatika</h3>
 
-          <p>
-            <strong>Abang Asuh</strong> | Institut Teknologi Del
-            <br>
-            Asrama IT Del (2025 - Sekarang)
-          </p>
-        </td>
+              <p>Institut Teknologi Del (2024 - 2028)</p>
 
-        <!-- Kolom Kanan: Keahlian -->
-        <td width="50%">
-          <h2>Keahlian</h2>
-          <hr>
+              <ul>
+                <li>SMA Negeri 1 Pangaribuan</li>
+                <li>SMP Swasta Budi Mulia Pangaribuan</li>
+                <li>SD Negeri 173197 Rahutbosi Onan</li>
+              </ul>
 
-          <h3>Bahasa Pemrograman</h3>
-          <ul>
-            <li>C / C++</li>
-            <li>MIPS Assembly</li>
-            <li>HTML</li>
-          </ul>
+              <h2>Sertifikat</h2>
 
-          <h3>Tools &amp; Perangkat Lunak</h3>
-          <ul>
-            <li>MARS Simulator</li>
-            <li>Visual Studio Code</li>
-            <li>Git &amp; GitHub</li>
-          </ul>
-        </td>
-      </tr>
+              <ol>
+                <li>
+                  Menjadi React Web Developer Expert
+                  (November 2023)
+                </li>
 
-      <!-- Bagian Sertifikat -->
-      <tr>
-        <td colspan="2">
-          <h2>Sertifikat</h2>
-          <hr>
+                <li>Menjadi Android Developer Expert (Desember 2028)</li>
 
-          <ol>
-            <li>Sertifikat Pelatihan Web Development - 2024</li>
-            <li>Sertifikat Kelulusan Orientasi Kampus IT Del - 2024</li>
-          </ol>
-        </td>
-      </tr>
+                <li>Menjadi React Web Developer Expert (Desember 2028)</li>
+              </ol>
 
-      <!-- Bagian Portfolio -->
-      <tr>
-        <td colspan="2">
-          <h2>Portfolio</h2>
-          <hr>
+              <h2>Portfolio</h2>
 
-          <ol>
-            <li>Proyek Praktik HTML Murni (IMDb Chart, Dev Blogs, &amp; Form Pendaftaran)</li>
-            <li>Simulasi Program Perakitan MIPS Assembly</li>
-          </ol>
-        </td>
-      </tr>
-    </table>
-  </main>
-</body>
+              <ol>
+                <li>Forum API | JavaScript | HapiJS</li>
+                <li>Github Expose | Kotlin | Android</li>
+                <li>Kas Tracking | PHP | Laravel</li>
+              </ol>
+            </td>
+
+            <td>
+              <hr />
+
+              <h2>Keahlian</h2>
+
+              <h3>Programming</h3>
+
+              <ul>
+                <li>Java</li>
+                <li>JavaScript</li>
+                <li>Kotlin</li>
+                <li>PHP</li>
+                <li>Python</li>
+              </ul>
+
+              <h3>Framework</h3>
+
+              <ul>
+                <li>Android Compose</li>
+                <li>Flask</li>
+                <li>Laravel</li>
+                <li>NextJS</li>
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+  </body>
 </html>
