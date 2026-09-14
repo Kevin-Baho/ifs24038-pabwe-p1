@@ -1,0 +1,176 @@
+
+<!DOCTYPE html>
+
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Daftar Akun</title>
+</head>
+
+<body>
+  <header>
+    <nav label="Navigasi utama">
+      <strong>Navigasi:</strong>
+      <a href="blog.html">Blog List</a> |
+      <a href="blog-detail.html">Blog Detail</a> |
+      <a href="cv.html">CV</a> |
+      <a href="form.html">Form</a> |
+      <a href="index.html">Film</a>
+    </nav>
+  </header>
+
+  <hr>
+
+  <main>
+    <form action="" method="post">
+      <fieldset>
+        <legend>Daftar Akun</legend>
+
+        <div>
+          <label for="nama">Nama Lengkap:</label>
+          <input
+            type="text"
+            id="nama"
+            name="nama"
+            required
+          >
+        </div>
+
+        <hr>
+
+        <fieldset>
+          <legend>Jenis Kelamin</legend>
+
+          <input
+            type="radio"
+            id="laki-laki"
+            name="gender"
+            value="Laki-Laki"
+            required
+          >
+          <label for="laki-laki">Laki-Laki</label>
+
+          <input
+            type="radio"
+            id="perempuan"
+            name="gender"
+            value="Perempuan"
+          >
+          <label for="perempuan">Perempuan</label>
+        </fieldset>
+
+        <hr>
+
+        <div>
+          <label for="tempat-lahir">Tempat Lahir:</label>
+          <input
+            type="text"
+            id="tempat-lahir"
+            name="tempat_lahir"
+            required
+          >
+        </div>
+
+        <hr>
+
+        <div>
+          <label for="tanggal-lahir">Tanggal Lahir:</label>
+          <input
+            type="date"
+            id="tanggal-lahir"
+            name="tanggal_lahir"
+            required
+          >
+        </div>
+
+        <hr>
+
+        <div>
+          <label for="agama">Agama:</label>
+          <select
+            id="agama"
+            name="agama"
+            required
+          >
+            <option value="">--- Pilih Agama ---</option>
+            <option value="Islam">Islam</option>
+            <option value="Katolik">Katolik</option>
+            <option value="Protestan">Protestan</option>
+            <option value="Hindu">Hindu</option>
+            <option value="Buddha">Buddha</option>
+            <option value="Konghucu">Konghucu</option>
+          </select>
+        </div>
+
+        <hr>
+
+        <fieldset>
+          <legend>Hobi</legend>
+
+          <input
+            type="checkbox"
+            id="olahraga"
+            name="hobi"
+            value="Olahraga"
+          >
+          <label for="olahraga">Olahraga</label>
+
+          <input
+            type="checkbox"
+            id="membaca"
+            name="hobi"
+            value="Membaca"
+          >
+          <label for="membaca">Membaca</label>
+
+          <input
+            type="checkbox"
+            id="ngoding"
+            name="hobi"
+            value="Ngoding"
+          >
+          <label for="ngoding">Ngoding</label>
+        </fieldset>
+
+        <hr>
+
+        <div>
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            required
+            minlength="8"
+          >
+        </div>
+
+        <hr>
+
+        <div>
+          <input
+            type="checkbox"
+            id="persetujuan"
+            name="persetujuan"
+            value="setuju"
+            required
+          >
+          <label for="persetujuan">
+            Dengan mendaftar saya setuju dengan Ketentuan dan Kebijakan
+            Privasi Aplikasi.
+          </label>
+        </div>
+
+        <hr>
+
+        <div>
+          <button type="reset">Reset</button>
+          <button type="submit">Submit</button>
+        </div>
+      </fieldset>
+    </form>
+  </main>
+</body>
+</html>
+
