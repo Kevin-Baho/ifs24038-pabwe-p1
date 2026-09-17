@@ -10,21 +10,6 @@
     />
 
     <title>Form Pendaftaran Akun</title>
-
-    <style>
-      .form-table {
-        border-collapse: collapse;
-      }
-
-      .form-table td {
-        padding: 5px;
-      }
-
-      .form-table input,
-      .form-table select {
-        max-width: 100%;
-      }
-    </style>
   </head>
 
   <body>
@@ -46,7 +31,7 @@
         <fieldset>
           <legend>Daftar Akun</legend>
 
-          <table class="form-table">
+          <table>
             <tbody>
               <tr>
                 <td>
@@ -134,9 +119,9 @@
                 <td>
                   <select id="agama" name="agama">
                     <option value="">-- Pilih Agama --</option>
-                    <option value="Kristen">Kristen</option>
-                    <option value="Katolik">Katolik</option>
                     <option value="Islam">Islam</option>
+                    <option value="Protestan">Protestan</option>
+                    <option value="Katolik">Katolik</option>
                     <option value="Hindu">Hindu</option>
                     <option value="Buddha">Buddha</option>
                     <option value="Konghucu">Konghucu</option>
@@ -220,6 +205,7 @@
 
                 <td>
                   <button type="submit">Daftar</button>
+                  <button type="reset">Reset</button>
                 </td>
               </tr>
             </tbody>
